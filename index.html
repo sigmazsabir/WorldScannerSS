@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorldScanner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-container">
+        <!-- Sol kutucuk: Fotoğraf yükleme -->
+        <div id="upload-container">
+            <h2>Fotoğraf Yükle</h2>
+            <input type="file" id="file-upload" accept="image/*">
+            <button id="upload-btn">Fotoğraf Yükle</button>
+        </div>
+
+        <!-- Sağ kutucuk: Bilgi gösterme -->
+        <div id="info-container">
+            <h2>Sonuçlar</h2>
+            <div id="image-display">
+                <img id="uploaded-image" src="" alt="Yüklenen Fotoğraf">
+            </div>
+            <div id="info-display">
+                <p id="animal-info"></p>
+                <p id="plant-info"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
